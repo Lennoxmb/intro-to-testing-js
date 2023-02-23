@@ -13,3 +13,22 @@ describe('helloWorld', function() {
       expect(helloWorld()).not.toBe(undefined);
     });
 });
+
+describe('sayHello', function() {
+    it('should be a defined function', function () {
+        expect(typeof helloWorld).toBe('function');
+    });
+});
+
+
+// describe('add', function() {
+//     it('should be a defined function', function() {
+//         expect(typeof add).toBe('function');
+//     });
+//     it(`should return a number`, function(){
+//         expect(typeof add()).toBe(`number`);
+//     });
+//     it("should never return 'undefined' when called", function() {
+//         expect(add()).not.toBe(undefined);
+//     });
+// });
