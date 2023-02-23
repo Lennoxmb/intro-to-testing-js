@@ -3,9 +3,11 @@ const helloWorld = function() {
     return "Hello, World!";
 }
 
-function sayHello(){
+function sayHello(input){
+    return "Hello, " + input + "!";
 
 }
+
 
 // function add(x, y) {
 //     return x + y;
